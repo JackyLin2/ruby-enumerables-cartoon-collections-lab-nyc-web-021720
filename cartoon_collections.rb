@@ -15,8 +15,7 @@ def summon_captain_planet(veggies)
     list.push ("#{x.capitalize}!")
   index += 1   
 end 
-list 
-end
+
 
 
 def long_planeteer_calls(short_words)
