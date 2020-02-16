@@ -28,6 +28,6 @@ def long_planeteer_calls(short_words)
 def find_the_cheese(food)
     cheese_types = ["cheddar", "gouda", "camembert"]
   food.find do | x | 
-    cheese_types.include?
+    cheese_types.include? | x |
 end 
 end 
